@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+<body>
+
+    <h1>Home Page</h1>
+    <h1>  {{ m }} {{ n }}</h1>
+    <img src="{% static 'images/beach.jpg' %}">
+    <a href="{% url 'displayurl' 'vishnu' 'J' %}">Full name</a>
+</body>
+</head>
+</html>
